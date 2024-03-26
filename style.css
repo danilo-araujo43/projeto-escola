@@ -19,5 +19,23 @@ html, body{
 .bg{
     background: url(image/bg-2.png) no-repeat;
     background-size: cover;
-    
+    width: 100%;
+    height: auto;
 }
+
+.bg2{
+    background: url(image/bg-4.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    max-width: 1680px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+}
+
