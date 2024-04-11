@@ -39,3 +39,204 @@ html, body{
     min-height: 95vh;
 }
 
+.text-gd{
+    font-size: 72px;
+}
+
+.text-md{
+    font-size: 42px;
+}
+
+.text-pq{
+    font-size: 20px;
+}
+
+.text-title{
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.color-azul{
+    color: #1b3b56;
+}
+
+.color-azul-1{
+    color: #5271FF;
+}
+
+.color-cinza-2{
+    color:#545454;
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.left{
+    width: 50%;
+    min-height: 600px;
+    max-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2%;
+}
+
+.right{
+    width: 50%;
+    min-height: 600px;
+    max-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2%;
+}
+
+.square{
+    width: 95%;
+    height: 3009px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#D9D9D9 ;
+}
+
+img{
+    width: 70%;
+    object-fit: contain;
+}
+
+button{
+    padding: 10px 20px;
+    background: #183856;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: 0.8s ease;
+    margin-bottom: 20px;
+    margin-right: 20px; 
+
+}
+
+button:hover{
+    border: 1px solid #8b634a;
+    background: #8b634a;
+    color: #fff;
+    transform: scale(1.10);
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0.2%;
+    width: 100%;
+    min-height: 800px;
+}
+
+.titulo{
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 40px;
+    text-shadow: 0 0 10px #545454;
+    color: #2b2b2b;
+}
+
+.line{
+    width: 80%;
+    height: 2px;
+    background: #17203F;
+    position: relative;
+    top: 40px;
+}
+
+.text-titulo{
+    position: relative;
+    top: -10px;
+    z-index: 99;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    font-size: 18px;
+    background: #8b634a;
+    color: #fff;
+}
+
+.down{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 300px;
+}
+
+.box{
+    width: 20%;
+    min-height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2%;
+    transition: 0.5s ease;
+}
+
+.info{
+    display: flex;
+}
+
+.menu{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    background: #c3bcb7;
+}
+
+.logo{
+    background: url('image/logo-roupa.png');
+    background-size: contain;
+    width: 130px;
+    height: 80px;
+    position: relative;
+    top: 20px;
+    z-index: 9;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 2px;
+    right: 10px;
+    padding: 5px 10px;
+    background: #8b634a;
+}
+
+.body::-webkit-scrollbar{
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #2b2b2b;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+/*  #### desktop-menu #### */
+
+.desktop-menu ul{
+    display: flex;
+}
+
+.desktop-menu ul li{
+    padding: 0 25px;
+}
