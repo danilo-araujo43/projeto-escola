@@ -1,30 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500&display=swap');
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
-html, body{
+/* #### Framework #### */
+
+html,body{
     height: 100%;
 }
 
 .max-width{
     width: 100%;
-    min-width: auto;
+    min-height: auto;
 }
 
 .bg{
-    background: url(image/bg-2.png) no-repeat;
+    background: url('image/bg-2.png') no-repeat;
     background-size: cover;
     width: 100%;
     height: auto;
 }
 
 .bg2{
-    background: url(image/bg-4.png) no-repeat;
+    background: url('image/bg-4.png') no-repeat;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -40,7 +42,7 @@ html, body{
 }
 
 .text-gd{
-    font-size: 72px;
+    font-size: 72px ;
 }
 
 .text-md{
@@ -53,11 +55,11 @@ html, body{
 
 .text-title{
     font-size: 20px;
-    font-weight: 600px;
+    font-weight: 600;
 }
 
 .color-azul{
-    color: #1b3b56;
+    color: #1B3B56;
 }
 
 .color-azul-1{
@@ -65,7 +67,7 @@ html, body{
 }
 
 .color-cinza-2{
-    color:#545454;
+    color: #545454;
 }
 
 .call{
@@ -95,12 +97,12 @@ html, body{
 }
 
 .square{
-    width: 95%;
-    height: 3009px;
+    width:95%;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background:#D9D9D9 ;
+    background: #D9D9D9;
 }
 
 img{
@@ -110,20 +112,19 @@ img{
 
 button{
     padding: 10px 20px;
-    background: #183856;
+    background: #1B3B56;
     color: #fff;
     font-size: 14px;
     border: none;
     cursor: pointer;
     transition: 0.8s ease;
     margin-bottom: 20px;
-    margin-right: 20px; 
-
+    margin-right: 20px;
 }
 
 button:hover{
-    border: 1px solid #8b634a;
-    background: #8b634a;
+    border: 1px solid #8B634A;
+    background: #8B634A;
     color: #fff;
     transform: scale(1.10);
 }
@@ -131,9 +132,9 @@ button:hover{
 .content{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     flex-direction: column;
-    padding: 0.2%;
+    padding: 0 2%;
     width: 100%;
     min-height: 800px;
 }
@@ -147,9 +148,8 @@ button:hover{
     flex-direction: column;
     margin-top: 40px;
     text-shadow: 0 0 10px #545454;
-    color: #2b2b2b;
+    color: #2B2B2B;
 }
-
 .line{
     width: 80%;
     height: 2px;
@@ -166,7 +166,7 @@ button:hover{
     text-align: center;
     width: 200px;
     font-size: 18px;
-    background: #8b634a;
+    background: #8B634A;
     color: #fff;
 }
 
@@ -200,11 +200,11 @@ button:hover{
     align-items: center;
     justify-content: space-between;
     padding: 0 2%;
-    background: #c3bcb7;
+    background:#C3BCB7;
 }
 
 .logo{
-    background: url('image/logo-roupa.png');
+    background: url('image/logo-roupa.png') no-repeat;
     background-size: contain;
     width: 130px;
     height: 80px;
@@ -213,25 +213,29 @@ button:hover{
     z-index: 9;
 }
 
-.back-to-top{
+#back-to-top {
     position: fixed;
     bottom: 2px;
     right: 10px;
     padding: 5px 10px;
-    background: #8b634a;
+    background: #8B634A;
 }
 
-.body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     width: 12px;
 }
-
-body::-webkit-scrollbar-thumb{
-    background-color: #2b2b2b;
+  
+body::-webkit-scrollbar-track {
+    background: #fff;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color:#2B2B2B;
     border-radius: 20px;
     border: 1px solid #fff;
 }
 
-/*  #### desktop-menu #### */
+/* #### desktop-menu #### */
 
 .desktop-menu ul{
     display: flex;
@@ -239,4 +243,117 @@ body::-webkit-scrollbar-thumb{
 
 .desktop-menu ul li{
     padding: 0 25px;
+    list-style-type: none;
 }
+
+.desktop-menu ul li a{
+    color:#17203F;
+    text-shadow: 0 0 5px #848790;
+    font-size: 23px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.8s ease;
+}
+
+.desktop-menu ul li a:hover{
+    color:#8B634A;
+    text-shadow: 0 0 5px #8B634A;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+/* #### mobile-menu #### */
+
+.mobile-menu{
+    width: 95%;
+    height: auto;
+    position: absolute;
+    top: 5px;
+    background: #C3BCB7;
+    display: none;
+}
+
+.mobile-menu i{
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    font-size: 23px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mobile-menu ul{
+    display: block;
+    text-align: center;
+}
+
+.mobile-menu ul li{
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.mobile-menu ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color:#17203F;
+    text-shadow: 0 0 5px #848790;
+}
+
+.mobile-menu ul li a:hover{
+    color:#8B634A;
+    text-shadow: 0 0 5px #8B634A;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/* #### Fim do Framework #### */
+
+/* #### Header #### */
+
+header .container{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header .left{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header .left h1{
+    text-align: start;
+    font-weight: 400;
+    text-shadow: 0 0 5px #848790;
+    padding: 0 40px;
+}
+
+header .left p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    text-align: start;
+    letter-spacing: 2px;
+    text-shadow: 0 0 5px #848790;
+    margin-top: 60px;
+    padding: 0 40px;
+}
+
+header button{
+    margin-top:60px;
+    margin-left: 40px;
+}
+
+header .right .imagem{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 1s ease;
+}
+
+header .right .imagem img{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 60px;
+}
+
+/* #### Fim do Header #### */
