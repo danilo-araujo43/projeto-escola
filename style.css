@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -358,23 +357,52 @@ header .right .imagem img{
 
 /* #### Fim do Header #### */
 
-/* #### About ####*/
+/* #### About #### */
+
 #About .container{
     flex-direction: column;
     align-items: flex-start;
 }
 
 #About .titulo h2{
-    font-family: 'Monserrat Alternates', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 #About .box{
     box-shadow: 0 5px 20px #2B2B2B;
     background: transparent;
-    margin-bottom: 128px;
+    margin-bottom: 120px;
 }
 
 #About .box .text{
     margin-right: 80px;
 }
 
+#About .box .text i{
+    position: relative;
+    bottom: 35px;
+    left: 180px;
+    font-size: 20px;
+}
+
+#About .box img{
+    width: 100%;
+}
+
+#About .box h2{
+    margin-top: 40px;
+    text-align: start;
+    font-weight: 300;
+}
+
+#About .box p, span{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: start;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* #### Fim do About #### */
