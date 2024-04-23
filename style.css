@@ -357,3 +357,24 @@ header .right .imagem img{
 }
 
 /* #### Fim do Header #### */
+
+/* #### About ####*/
+#About .container{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#About .titulo h2{
+    font-family: 'Monserrat Alternates', sans-serif;
+}
+
+#About .box{
+    box-shadow: 0 5px 20px #2B2B2B;
+    background: transparent;
+    margin-bottom: 128px;
+}
+
+#About .box .text{
+    margin-right: 80px;
+}
+
