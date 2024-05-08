@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500&display=swap');
+@import url('https://fs.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ html,body{
 }
 
 .max-width{
-    width: 100%;
+    width: 100%ont;
     min-height: auto;
 }
 
@@ -370,7 +370,7 @@ header .right .imagem img{
 
 #About .box{
     box-shadow: 0 5px 20px #2B2B2B;
-    background: transparent;
+    background:transparent;
     margin-bottom: 120px;
 }
 
@@ -380,7 +380,7 @@ header .right .imagem img{
 
 #About .box .text i{
     position: relative;
-    bottom: 35px;
+    bottom:35px;
     left: 180px;
     font-size: 20px;
 }
@@ -391,14 +391,14 @@ header .right .imagem img{
 
 #About .box h2{
     margin-top: 40px;
-    text-align: start;
+    text-align:start;
     font-weight: 300;
 }
 
 #About .box p, span{
     margin-top: 10px;
     margin-bottom: 20px;
-    text-align: start;
+    text-align:start;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -406,3 +406,106 @@ header .right .imagem img{
 }
 
 /* #### Fim do About #### */
+
+/* #### Service #### */
+
+#Service .titulo h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#Service .box{
+    width: 80%;
+    background: #fff;
+}
+
+#Service .box img{
+    width:300px;
+    height: 500px;
+    object-fit: contain;
+}
+
+#Service .box h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#Service .box p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#Service .container input[type=radio]{
+    display: none;
+}
+#Service .container .card{
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    top: -120px;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 0 0 10px 0 #848790;
+    transition: 0.4s ease;
+    cursor: pointer;
+    margin-top: 75px;
+}
+#Service .container .card img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+#Service .container .card button{
+    position: absolute;
+    bottom: 10px;
+    z-index: 9;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#Service .container .cards{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+#item-1:checked ~ .cards #song-3,
+#item-2:checked ~ .cards #song-1,
+#item-3:checked ~ .cards #song-2{
+    transform: translateX(-100%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+#item-1:checked ~ .cards #song-2,
+#item-2:checked ~ .cards #song-3,
+#item-3:checked ~ .cards #song-1{
+    transform: translateX(100%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+#item-1:checked ~ .cards #song-1,
+#item-2:checked ~ .cards #song-2,
+#item-3:checked ~ .cards #song-3{
+    transform: translateX(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+/* #### Fim do Service #### */
+
+/* ### Contact ###*/
+
+#contact .container{
+    flex-direction: column;
+    height: 145vh;
+}
+
+#contact .container .titulo{
+    min-height: 0;
+    margin-bottom: 60px;
+}
+
+#contact .container .left{
+    box-shadow: 0 0 15px #848790;
+    margin: 2%;
+}
