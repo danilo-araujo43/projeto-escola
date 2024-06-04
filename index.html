@@ -105,7 +105,7 @@
         <div class="container">
             <div class="content">
                 <div class="titulo">
-                    <h2 class="text-md  color-cinza-1">Destaque</h2>
+                    <h2 class="text-md color-cinza-1">Destaque</h2>
                     <div class="line">
                         <div class="text-titulo">Promoções</div>
                     </div>
@@ -132,3 +132,88 @@
             </div>
         </div>
     </section>
+
+    <!--Aqui Terminal o Service-->
+
+    <!--Aqui Começa o Contact-->
+
+    <section class="max-width bg2" id="Contact">
+        <div class="container">
+            <div class="titulo">
+                <h2 class="text-md color-cinza-1">Contato</h2>
+                <div class="line">
+                    <div class="text-titulo">Fale Conosco</div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="left">
+                    <div class="box">
+                        <h1>Nosso Newsletter</h1>
+                        <form action="">
+                            <input type="text" placeholder="Nome Completo">
+                            <input type="email" placeholder="Seu E-mail">
+                            <input type="submit" value="Inscreva-se">
+                        </form>
+                        <h1>Siga-nos</h1>
+                        <div class="social">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="box">
+                        <h1>Nosso Endereço</h1>
+                        <div class="info">
+                            <div class="icons">
+                                <i class="fa-solid fa-envelope"></i>
+                                <i class="fa-solid fa-phone"></i>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="text">
+                                <p>info@front.com</p>
+                                <p>+55 99 5555-5555</p>
+                                <p>Angra,Brazil</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Aqui Termina o Contact-->
+
+    <!--Aqui Começa o footer-->
+
+    <footer>
+        <div class="container">
+            <img src="image/logo-roupa.png" alt="">
+            <p class="text-pq">Copyright © 2024 <span class="color-laranja">RÓDINO</span> All Rights Reserved</p>
+            <p class="text-pq">Tel: (88)99286-5175</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+
+        // Menu-Mobile
+
+       function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+}
+        // Scrollbar Personalizado
+
+            var btn = document.querySelector("#back-to-top");
+            btn.addEventListener("click", function() {
+                window.scrollTo(0, 0);
+            });
+    </script>
+</body>
+</html>
