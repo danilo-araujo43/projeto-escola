@@ -1,3 +1,8 @@
+/*CORES DO SITE
+#C50303
+#C2E3F7
+#F4C6C6*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500&display=swap');
 *{
     margin: 0;
@@ -18,14 +23,14 @@ html,body{
 }
 
 .bg{
-    background: url('image/bg-2.png') no-repeat;
+    background: url() no-repeat;
     background-size: cover;
     width: 100%;
     height: auto;
 }
 
 .bg2{
-    background: url('image/bg-4.png') no-repeat;
+    background: url() no-repeat;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -199,14 +204,14 @@ button:hover{
     align-items: center;
     justify-content: space-between;
     padding: 0 2%;
-    background:#C3BCB7;
+    background: rgb(240, 240, 215);
 }
 
 .logo{
-    background: url('image/logo-roupa.png') no-repeat;
+    background: url('image/logo_do_site-removebg-preview.png') no-repeat;
     background-size: contain;
-    width: 130px;
-    height: 80px;
+    width: 180px;
+    height: 85px;
     position: relative;
     top: 20px;
     z-index: 9;
@@ -246,19 +251,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 .desktop-menu ul li a{
-    color:#17203F;
-    text-shadow: 0 0 5px #848790;
-    font-size: 23px;
-    font-weight: 300;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
     text-decoration: none;
     transition: 0.8s ease;
+    background-color: #C50303;
+    padding: 7px;
 }
 
 .desktop-menu ul li a:hover{
-    color:#8B634A;
-    text-shadow: 0 0 5px #8B634A;
+    color: black;
+    background-color: #86c7f0;
     font-weight: 400;
-    text-decoration: underline;
 }
 
 /* #### mobile-menu #### */
