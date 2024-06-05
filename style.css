@@ -273,7 +273,7 @@ body::-webkit-scrollbar-thumb {
     height: auto;
     position: absolute;
     top: 5px;
-    background: #C3BCB7;
+    background: rgb(240, 240, 215);
     display: none;
 }
 
@@ -282,7 +282,7 @@ body::-webkit-scrollbar-thumb {
     right: 25px;
     top: 10px;
     font-size: 23px;
-    color: #fff;
+    color: black;
     cursor: pointer;
 }
 
@@ -299,13 +299,11 @@ body::-webkit-scrollbar-thumb {
 .mobile-menu ul li a{
     text-decoration: none;
     font-weight: 600;
-    color:#17203F;
-    text-shadow: 0 0 5px #848790;
+    color:#C50303;
 }
 
 .mobile-menu ul li a:hover{
-    color:#8B634A;
-    text-shadow: 0 0 5px #8B634A;
+    color: #f19a9a;
     font-weight: 500;
     text-decoration: underline;
 }
