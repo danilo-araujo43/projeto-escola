@@ -5,6 +5,9 @@
 #5271FF*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +27,7 @@ html,body{
 }
 
 .bg{
-    background-color: #f0f0f0;
+    background: url(image/bg-section.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -331,16 +334,18 @@ header .left h1{
     font-weight: 400;
     text-shadow: 0 0 5px #848790;
     padding: 0 40px;
+    font-family: "DM Serif Text", serif;
 }
 
 header .left p{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: "DM Serif Text", serif;
     font-weight: 400;
     text-align: start;
     letter-spacing: 2px;
     text-shadow: 0 0 5px #848790;
     margin-top: 60px;
     padding: 0 40px;
+    font-style: italic;
 }
 
 header button{
