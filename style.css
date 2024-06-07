@@ -27,7 +27,7 @@ html,body{
 }
 
 .bg{
-    background: url(image/bg-section.jpg);
+    background: url(image/bg-section.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -67,11 +67,11 @@ html,body{
 }
 
 .color-azul{
-    color: #1B3B56;
+    color: rgb(0, 0, 0);
 }
 
 .color-azul-1{
-    color: #5271FF;
+    color: #19234e;
 }
 
 .color-cinza-2{
@@ -123,7 +123,7 @@ img{
 
 button{
     padding: 10px 20px;
-    background: #1B3B56;
+    background: #B7443D;
     color: #fff;
     font-size: 14px;
     border: none;
@@ -134,8 +134,8 @@ button{
 }
 
 button:hover{
-    border: 1px solid #8B634A;
-    background: #8B634A;
+    border: 1px solid;
+    background: #cc3535;
     color: #fff;
     transform: scale(1.10);
 }
@@ -229,7 +229,7 @@ button:hover{
     bottom: 2px;
     right: 10px;
     padding: 5px 10px;
-    background: #8B634A;
+    background: #B7443D;
 }
 
 body::-webkit-scrollbar {
@@ -377,13 +377,20 @@ header .right .imagem img{
 }
 
 #About .titulo h2{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'DM Serif Text', serif;
+    font-size: 40px;
+    text-shadow: 0 0 4px #848790;
+}
+
+#About .text-titulo{
+    background-color: #293a83;
 }
 
 #About .box{
     box-shadow: 0 5px 20px #2B2B2B;
     background:transparent;
     margin-bottom: 120px;
+    width: 300px;
 }
 
 #About .box .text{
@@ -405,6 +412,8 @@ header .right .imagem img{
     margin-top: 40px;
     text-align:start;
     font-weight: 300;
+    text-align: center;
+    background-color: #293a83;
 }
 
 #About .box p, span{
@@ -422,8 +431,15 @@ header .right .imagem img{
 /* #### Service #### */
 
 #Service .titulo h2{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'DM Serif Text', serif;
+    font-size: 40px;
+    text-shadow: 0 0 4px #848790;
 }
+
+#Service .text-titulo{
+    background-color: #293a83;
+}
+
 
 #Service .box{
     width: 80%;
@@ -517,6 +533,17 @@ header .right .imagem img{
     min-height: 0;
     margin-bottom: 60px;
 }
+
+#Contact .titulo h2{
+    font-family: 'DM Serif Text', serif;
+    font-size: 40px;
+    text-shadow: 0 0 4px #848790;
+}
+
+#Contact .text-titulo{
+    background-color: #293a83;
+}
+
 
 #Contact .container .left{
     box-shadow: 0 0 15px #848790;
